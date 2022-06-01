@@ -1,0 +1,147 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+header { 
+   background-color: rgb(251, 255, 0);
+   padding: 10px;
+   text-align: center;
+}
+
+.nav img {
+   width: 50px;
+   height: 50px;
+}
+
+body {
+    background-color:rgb(3, 14, 116);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 50px; 
+    
+}
+
+.input-text {
+    margin-top: 50px;
+    margin-left: 30px;
+    background-color:rgb(249, 255, 164);
+    border-color: transparent;
+    color: rgb(3, 14, 116);
+    border-radius: 20px;
+   }
+
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+}
+
+.information {
+    display: flex; 
+}
+   
+.text {
+    font-size: 15px;
+    color: white;
+    margin-left: 30px;
+}
+
+.mensage  {
+   
+    margin-top: 50px;
+    margin-left: 100px;
+    background-image: url(boneco.svg);
+    background-position: center;
+    background-size: 300px;
+    background-position-y: 80px;
+    background-repeat: no-repeat;
+    background-color: rgb(249, 255, 164);
+    width: 350px;
+    height:550px;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: transparent;
+  
+}
+
+.mensage::placeholder {
+   color: rgb(3, 14, 116);
+   font-size: .5rem;
+   text-align: center;
+   position: absolute;
+   top:400px;
+   padding: 0 20px;
+
+}
+
+.encriptor {
+   background-color: rgb(251, 255, 0);
+   color: black;
+   width: 332px;
+   border-radius: 10px;
+   border-color: black;
+   margin-left: 30px;
+   cursor: pointer;
+       
+}
+
+.button :hover {
+   background-color: rgb(249, 255, 164);
+   
+}
+
+.descriptor {
+   background-color: rgb(251, 255, 0);
+   color: black;
+   width: 332px;
+   border-radius: 10px;
+   border-color: black;
+   margin-left: 30px;
+   cursor: pointer;
+  }
+  
+.btnCopyText {
+   font-size: 1em;
+   text-align: center;
+   border-radius:10px;
+   background-color: rgb(251, 255, 0);
+   border-color: black;
+   color: black;
+   cursor: pointer;
+   margin-left: 50%;
+}
+
+.btnCopyText:hover {
+   background-color: rgb(249, 255, 164);
+}
+
+.linkedin {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(251, 255, 0);
+}   
+  
+.author img {
+   width: 1.2rem;
+   height: 1.2rem;
+   padding-bottom: 0;
+}
+
+.author p{
+    font-size:.5rem;
+    color: #d37509;
+    padding-top:0%;
+    line-height: 0%;
+}
+
+.n{
+    color: #6c6edf;
+    text-align: center;
+}

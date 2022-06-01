@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="reset" href="./reset.css">
+    <title>Decodificador</title>
+</head>
+
+<body>
+
+    <header class="nav">
+        <img src="Vector.svg" alt="Logomarca da Alura">
+        <h2>Encriptador ONE ─ Challenge Alura 2022 </h2>
+    </header>
+    <main>
+        <section>
+            <textarea class="input-text" id="entrada" cols="40" rows="7" placeholder="digite o seu texto"></textarea>
+
+            <div class="information">
+
+                <h6 class="text">Apenas letras maiúsculas e minúsculas</h6>
+            </div>
+            <div class="button">
+                <button class="encriptor" onclick="btnEncriptar()">
+                    <p>Criptografar</p>
+                </button>
+
+                <button class="descriptor" onclick="btnDesencriptar()">
+                    <p>Descriptografar</p>
+                </button>
+
+            </div>
+        </section>
+
+        <section class="output">
+            <div>
+                <textarea class="mensage" id="msgoutput" cols="18" rows="8"
+                    placeholder="       Nenhuma mensagem encontrada.       Digite um texto que você quer criptografar ou descriptogafar."></textarea>
+            </div>
+
+            <section>
+                <button class="btnCopyText" onclick="btnCopy()">Copiar</button>
+            </section>
+
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+<footer>
+    <section>
+        <p class="linkedin">
+        Criado por <a href="https://www.linkedin.com/in/alex-henrique-nascimento-39a265144/" target="_blank" rel="noopener">Alex Henrique</a>
+        
+        <br class="github"><br><a href="https://github.com/AlexHNascimento" target="_blank" rel="noopener">GitHub</a>
+        </p>
+    </section>
+</footer>
+
+</html>
